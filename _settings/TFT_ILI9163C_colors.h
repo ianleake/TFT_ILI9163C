@@ -1,11 +1,13 @@
 #ifndef _TFT_ILI9163C_COLORS_H_
 #define _TFT_ILI9163C_COLORS_H_
 
+// IL: I HAVE CHANGED THESE TO MATCH THE ER-TFTM018-2
+
 
 #define	BLACK   	0x0000
 #define WHITE   	0xFFFF
-#define BLUE    	0x001F
-#define RED     	0xF800
+#define BLUE    	0xF800 //0x001F
+#define RED     	0x001F //0xF800
 #define GREEN   	0x07E0
 #define CYAN    	0x07FF
 #define MAGENTA 	0xF81F
