@@ -24,7 +24,8 @@ Default: #include "../_display/TFT_ILI9163C_RED_PCB_OLD.h"
 #if !defined (TFT_ILI9163C_INSTANCES)
 	//#include "../_display/TFT_ILI9163C_BLACK_PCB.h"
 	//#include "../_display/TFT_ILI9163C_RED_PCB_OLD.h"
-	#include "../_display/TFT_ILI9163C_RED_PCB_YPIN.h"//the infamous 2016 yellow pin/red pcb one
+	// #include "../_display/TFT_ILI9163C_RED_PCB_YPIN.h"//the infamous 2016 yellow pin/red pcb one
+	#include "../_display/ER_TFTM018_2.h"//My guess for the ER-TFTM018-2
 	
 	//you can add further display files here but remember to add in TFT_ILI9163C_ALL.h as well
 	
